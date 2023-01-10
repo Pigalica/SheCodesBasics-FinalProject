@@ -1,0 +1,73 @@
+button {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  border: 1px solid #1a64d6;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(8, 6, 122, 0.3);
+  color: #1a64d6;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 20px auto;
+  padding: 16px 24px;
+  transition: all 200ms ease;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+span {
+  display: block;
+  font-size: 14px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  background: linear-gradient(
+    93.1deg,
+    rgb(238, 254, 183) 19.1%,
+    rgb(169, 254, 222) 53.9%,
+    rgb(90, 222, 255) 92%
+  );
+  border-radius: 20px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.pravdaLink {
+  color: #1a64d6;
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 15px 10px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pravdaLink:hover {
+  text-decoration: underline;
+}
